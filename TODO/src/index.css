@@ -1,0 +1,14 @@
+body{
+
+  background-color: #2C43DD;
+ 
+}
+
+.root{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
