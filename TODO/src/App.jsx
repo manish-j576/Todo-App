@@ -8,9 +8,7 @@ import EmptyMessage from "./components/EmptyMessage";
 import { TodoContext } from "./store/todo-Items-ContextProvider";
 
 function App() {
-  let [todoItems, setTodoItems] = useState([
-    { todo: "buy milk", date: "2023-09-12" },
-  ]);
+  let [todoItems, setTodoItems] = useState([]);
   const addNewItem = (todoName, todoDate) => {
     setTodoItems((currValue) => [
       ...currValue,
